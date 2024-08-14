@@ -21,6 +21,7 @@ crcCalculate::crcCalculate(QWidget *parent)
     qss->close();
 
     this->setWindowIcon(QIcon(":/crc_label.svg"));
+    this->setWindowTitle("Crc Checksum Calculator");
 
 }
 
